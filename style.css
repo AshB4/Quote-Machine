@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height:100vh;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+    background-image: linear-gradient(to bottom, rgb(44, 26, 146),#1a96d4f5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px
+    border-radius: 15px;
+    width: 600px;
+    background-color: {setColors}; // is that right to make it random colors?
+}
+#newQuote{
+    background-color: #09355b;
+    color: #ffffff;
+}
+#twitterButton{
+    background-color: #76b8ea;
+    color: #ffffff;
+}
+
