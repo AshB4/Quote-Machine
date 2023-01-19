@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 function App() {
     // const [quotes,setQuotes] = React.useState.setQuotes([]);
-    const [quotes, setQotes] = useState([]);
+    const [quotes, setQuotes] = useState([]);
     const [randomQuotes,setRandomQuote] = React.useState.setRandomQuote([]);
     const [setColors] = React.useState([#ffffff]);
 
