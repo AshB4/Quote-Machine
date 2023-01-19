@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "5000",
+            "request": "launch",
+            "url": "5000"
+        }
+    ]
+}
